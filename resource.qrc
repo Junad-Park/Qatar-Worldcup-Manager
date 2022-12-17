@@ -2,5 +2,12 @@
     <qresource prefix="/images">
         <file>images/instro.jpg</file>
         <file>images/bg.jpg</file>
+        <file>images/logo.webp</file>
+        <file>images/cro.avif</file>
+        <file>images/mor.webp</file>
+        <file>images/highlight.webp</file>
+        <file>images/messi.webp</file>
+        <file>images/korHL.webp</file>
+        <file>images/1103500.png</file>
     </qresource>
 </RCC>
