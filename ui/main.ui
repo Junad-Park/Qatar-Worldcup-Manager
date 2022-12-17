@@ -14,7 +14,7 @@
    <string>Qatar WC Manager</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/images/images/instro.jpg);</string>
+   <string notr="true">background-image: url(:/images/images/bg.jpg)</string>
   </property>
   <widget class="QWidget" name="centralwidget"/>
   <widget class="QMenuBar" name="menubar">

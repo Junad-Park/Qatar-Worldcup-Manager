@@ -1,28 +1,36 @@
-# This Python file uses the following encoding: utf-8
 import sys
 
-from PyQt6.QtWidgets import QApplication, QMainWindow
+from PyQt6.QtWidgets import *
 from PyQt6.QtGui import *
 from PyQt6 import uic, QtWidgets
-from PyQt6.QtWidgets import *
+from sub import Index
 
-# Important:
-# You need to run the following command to generate the ui_form.py file
-#     pyside6-uic form.ui -o ui_form.py, or
-#     pyside2-uic form.ui -o ui_form.py
-
-import ui.resource_rc as resource_rc
+import resource_rc as resource_rc
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.stackedWidget:QStackedWidget
-        uic.loadUi("designer/form.ui", self)
+        uic.loadUi("ui/form.ui", self)
         self.setFixedSize(1270, 720)
+
+    def moveIndexWindow(self):
+        widget.setCurrentIndex(widget.currentIndex()+1)
+
 
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    widget = MainWindow()
+
+    # 화면 전환용 Widget 설정
+    widget = QtWidgets.QStackedWidget()
+
+    # 레이아웃 인스턴스 생성
+    mainwindow = MainWindow()
+    indexWindow = Index()
+
+    widget.addWidget(mainwindow)
+    widget.addWidget(indexWindow)
+
     widget.show()
     sys.exit(app.exec())
