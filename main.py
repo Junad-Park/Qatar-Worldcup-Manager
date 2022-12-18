@@ -2,8 +2,7 @@ import sys
 
 from PyQt6.QtWidgets import *
 from PyQt6.QtGui import *
-from PyQt6.QtCore import QUrl
-from PyQt6.QtMultimedia import QAudioOutput, QMediaPlayer
+
 from PyQt6 import uic, QtWidgets
 from widgets.index import Index
 
@@ -15,19 +14,11 @@ class MainWindow(QtWidgets.QMainWindow):
         uic.loadUi("ui/form.ui", self)
         self.stackedWidget:QStackedWidget
         self.setFixedSize(1270, 720)
-        self.player = QMediaPlayer()
-        self.audio_output = QAudioOutput()
-        self.playAudioFile()
 
     def moveIndexWindow(self):
         widget.setCurrentIndex(widget.currentIndex()+1)
 
-    def playAudioFile(self):
-        file_path = "music/승리를위하여.mp3"
-        self.player.setAudioOutput(self.audio_output)
-        self.player.setSource(QUrl.fromLocalFile(file_path))
-        self.audio_output.setVolume(50)
-        self.player.play()
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
