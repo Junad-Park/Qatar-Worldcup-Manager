@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1290</width>
+    <width>1280</width>
     <height>750</height>
    </rect>
   </property>
@@ -17,10 +17,10 @@
    <string notr="true">background-image: url(:/images/images/instro.jpg);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pageBtn_1">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>0</y>
       <width>1270</width>
       <height>740</height>
@@ -42,7 +42,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1290</width>
+     <width>1280</width>
      <height>24</height>
     </rect>
    </property>
@@ -51,23 +51,23 @@
  <resources/>
  <connections>
   <connection>
-   <sender>pushButton</sender>
+   <sender>pageBtn_1</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>moveIndexWindow()</slot>
+   <slot>movePage()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>247</x>
-     <y>85</y>
+     <x>166</x>
+     <y>717</y>
     </hint>
     <hint type="destinationlabel">
-     <x>324</x>
-     <y>0</y>
+     <x>2</x>
+     <y>702</y>
     </hint>
    </hints>
   </connection>
  </connections>
  <slots>
-  <slot>moveIndexWindow()</slot>
+  <slot>movePage()</slot>
  </slots>
 </ui>
