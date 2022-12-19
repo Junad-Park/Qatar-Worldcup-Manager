@@ -61,6 +61,9 @@ opacity : 1;</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">border : 0;
  border-radius:10px;</string>
@@ -88,6 +91,9 @@ opacity : 1;</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">border : 0;
  border-radius:10px; ; color : black;</string>
@@ -110,6 +116,9 @@ opacity : 1;</string>
       <width>41</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">border : 0;
@@ -146,6 +155,9 @@ opacity : 1;</string>
          <height>61</height>
         </size>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">border:0px; border-radius:10px;</string>
        </property>
@@ -164,6 +176,9 @@ opacity : 1;</string>
          <width>121</width>
          <height>61</height>
         </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
         <string notr="true">border:0px; border-radius:10px;</string>
@@ -184,6 +199,9 @@ opacity : 1;</string>
          <height>61</height>
         </size>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">border:0px; border-radius:10px;</string>
        </property>
@@ -202,6 +220,9 @@ opacity : 1;</string>
          <width>121</width>
          <height>61</height>
         </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
         <string notr="true">border:0px; border-radius:10px;</string>
@@ -397,7 +418,7 @@ border-radius : 20px;</string>
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
-          <string>아르헨티나                                                      0</string>
+          <string>아르헨티나                                                      3</string>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -410,14 +431,14 @@ border-radius : 20px;</string>
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
-          <string>프랑스                                                            0</string>
+          <string>프랑스                                                            3</string>
          </property>
         </widget>
        </item>
       </layout>
      </widget>
     </widget>
-    <widget class="QPushButton" name="pushButton_4">
+    <widget class="QPushButton" name="hyperlink_1">
      <property name="geometry">
       <rect>
        <x>420</x>
@@ -425,6 +446,12 @@ border-radius : 20px;</string>
        <width>811</width>
        <height>441</height>
       </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
      </property>
      <property name="styleSheet">
       <string notr="true">border-image: url(:/images/images/korHL.webp);
@@ -475,8 +502,8 @@ border-radius : 20px;
    <slot>nextAudio()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1270</x>
-     <y>84</y>
+     <x>1250</x>
+     <y>104</y>
     </hint>
     <hint type="destinationlabel">
      <x>1250</x>
@@ -564,11 +591,28 @@ border-radius : 20px;
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>hyperlink_1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>webOpen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>857</x>
+     <y>265</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>791</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>muteAudio()</slot>
   <slot>nextAudio()</slot>
   <slot>previousAudio()</slot>
   <slot>movePage()</slot>
+  <slot>webOpen()</slot>
  </slots>
 </ui>

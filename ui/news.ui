@@ -60,6 +60,9 @@ opacity : 1;</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">border : 0;
  border-radius:10px</string>
@@ -87,6 +90,9 @@ opacity : 1;</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
     <property name="styleSheet">
      <string notr="true">border : 0;
  border-radius:10px; color : black;</string>
@@ -109,6 +115,9 @@ opacity : 1;</string>
       <width>41</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">border : 0;
@@ -158,36 +167,6 @@ opacity : 1;</string>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QLabel" name="label_5">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>341</width>
-        <height>171</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-image: url(:/images/images/CRO_MAR_3rd_FWC22_THUMB_V1.webp);
-border-radius : 20px;
-</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-      <property name="margin">
-       <number>0</number>
-      </property>
-      <property name="indent">
-       <number>-1</number>
-      </property>
-      <property name="openExternalLinks">
-       <bool>false</bool>
-      </property>
-     </widget>
      <widget class="QFrame" name="frame_5">
       <property name="geometry">
        <rect>
@@ -282,6 +261,30 @@ opacity : 0%;</string>
        </layout>
       </widget>
      </widget>
+     <widget class="QPushButton" name="hyperlink_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>340</width>
+        <height>170</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/images/images/korHL.webp);
+border-radius : 20px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QFrame" name="frame_6">
      <property name="geometry">
@@ -298,36 +301,6 @@ opacity : 0%;</string>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QLabel" name="label_6">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>341</width>
-        <height>171</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-image: url(:/images/images/CRO_MAR_3rd_FWC22_THUMB_V1.webp);
-border-radius : 20px;
-</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-      <property name="margin">
-       <number>0</number>
-      </property>
-      <property name="indent">
-       <number>-1</number>
-      </property>
-      <property name="openExternalLinks">
-       <bool>false</bool>
-      </property>
-     </widget>
      <widget class="QFrame" name="frame_7">
       <property name="geometry">
        <rect>
@@ -422,6 +395,30 @@ opacity : 0%;</string>
        </layout>
       </widget>
      </widget>
+     <widget class="QPushButton" name="hyperlink_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>340</width>
+        <height>170</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/images/images/korHL.webp);
+border-radius : 20px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QFrame" name="frame_8">
      <property name="geometry">
@@ -438,36 +435,6 @@ opacity : 0%;</string>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QLabel" name="label_7">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>341</width>
-        <height>171</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-image: url(:/images/images/CRO_MAR_3rd_FWC22_THUMB_V1.webp);
-border-radius : 20px;
-</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-      <property name="margin">
-       <number>0</number>
-      </property>
-      <property name="indent">
-       <number>-1</number>
-      </property>
-      <property name="openExternalLinks">
-       <bool>false</bool>
-      </property>
-     </widget>
      <widget class="QFrame" name="frame_9">
       <property name="geometry">
        <rect>
@@ -562,6 +529,30 @@ opacity : 0%;</string>
        </layout>
       </widget>
      </widget>
+     <widget class="QPushButton" name="hyperlink_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>340</width>
+        <height>170</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/images/images/korHL.webp);
+border-radius : 20px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QFrame" name="frame_10">
      <property name="geometry">
@@ -578,36 +569,6 @@ opacity : 0%;</string>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QLabel" name="label_8">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>341</width>
-        <height>171</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-image: url(:/images/images/CRO_MAR_3rd_FWC22_THUMB_V1.webp);
-border-radius : 20px;
-</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-      <property name="margin">
-       <number>0</number>
-      </property>
-      <property name="indent">
-       <number>-1</number>
-      </property>
-      <property name="openExternalLinks">
-       <bool>false</bool>
-      </property>
-     </widget>
      <widget class="QFrame" name="frame_11">
       <property name="geometry">
        <rect>
@@ -702,6 +663,30 @@ opacity : 0%;</string>
        </layout>
       </widget>
      </widget>
+     <widget class="QPushButton" name="hyperlink_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>340</width>
+        <height>170</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/images/images/korHL.webp);
+border-radius : 20px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QFrame" name="frame_12">
      <property name="geometry">
@@ -718,36 +703,6 @@ opacity : 0%;</string>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QLabel" name="label_9">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>341</width>
-        <height>171</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-image: url(:/images/images/CRO_MAR_3rd_FWC22_THUMB_V1.webp);
-border-radius : 20px;
-</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-      <property name="margin">
-       <number>0</number>
-      </property>
-      <property name="indent">
-       <number>-1</number>
-      </property>
-      <property name="openExternalLinks">
-       <bool>false</bool>
-      </property>
-     </widget>
      <widget class="QFrame" name="frame_13">
       <property name="geometry">
        <rect>
@@ -842,6 +797,30 @@ opacity : 0%;</string>
        </layout>
       </widget>
      </widget>
+     <widget class="QPushButton" name="hyperlink_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>340</width>
+        <height>170</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/images/images/korHL.webp);
+border-radius : 20px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QFrame" name="frame_14">
      <property name="geometry">
@@ -858,36 +837,6 @@ opacity : 0%;</string>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QLabel" name="label_12">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>341</width>
-        <height>171</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">border-image: url(:/images/images/CRO_MAR_3rd_FWC22_THUMB_V1.webp);
-border-radius : 20px;
-</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-      <property name="margin">
-       <number>0</number>
-      </property>
-      <property name="indent">
-       <number>-1</number>
-      </property>
-      <property name="openExternalLinks">
-       <bool>false</bool>
-      </property>
-     </widget>
      <widget class="QFrame" name="frame_15">
       <property name="geometry">
        <rect>
@@ -982,6 +931,30 @@ opacity : 0%;</string>
        </layout>
       </widget>
      </widget>
+     <widget class="QPushButton" name="hyperlink_1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>340</width>
+        <height>170</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/images/images/korHL.webp);
+border-radius : 20px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
    </widget>
    <widget class="QWidget" name="horizontalLayoutWidget_2">
@@ -1005,6 +978,9 @@ opacity : 0%;</string>
          <height>61</height>
         </size>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">border:0px; border-radius:10px;</string>
        </property>
@@ -1023,6 +999,9 @@ opacity : 0%;</string>
          <width>121</width>
          <height>61</height>
         </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
         <string notr="true">border:0px; border-radius:10px;</string>
@@ -1043,6 +1022,9 @@ opacity : 0%;</string>
          <height>61</height>
         </size>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">border:0px; border-radius:10px;</string>
        </property>
@@ -1061,6 +1043,9 @@ opacity : 0%;</string>
          <width>121</width>
          <height>61</height>
         </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
         <string notr="true">border:0px; border-radius:10px;</string>
@@ -1200,11 +1185,108 @@ opacity : 0%;</string>
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>hyperlink_1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>webOpen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>187</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-38</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hyperlink_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>webOpen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>738</x>
+     <y>158</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>738</x>
+     <y>104</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hyperlink_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>webOpen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>910</x>
+     <y>161</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>882</x>
+     <y>113</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hyperlink_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>webOpen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>576</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>123</x>
+     <y>782</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hyperlink_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>webOpen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>557</x>
+     <y>567</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>561</x>
+     <y>773</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hyperlink_6</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>webOpen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>960</x>
+     <y>581</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>960</x>
+     <y>789</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>muteAudio()</slot>
   <slot>nextAudio()</slot>
   <slot>previousAudio()</slot>
   <slot>movePage()</slot>
+  <slot>webOpen()</slot>
  </slots>
 </ui>

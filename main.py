@@ -1,10 +1,11 @@
-import sys
+import sys, webbrowser
 
 from PyQt6.QtWidgets import *
 from PyQt6.QtGui import *
 from PyQt6 import uic, QtWidgets
 
 from utils.audio import Audio
+from utils.qatarWcApi import QatarWcApi
 
 import resource_rc as resource_rc
 
@@ -14,9 +15,16 @@ class MainWindow(QtWidgets.QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
         uic.loadUi(ui[0], self)
-        self.stackedWidget:QStackedWidget
         self.setFixedSize(1270, 720)
+
         self.audio = Audio()
+        self.wc = QatarWcApi()
+        
+
+    def webOpen(self):
+        target = self.sender()
+        target_link = target
+        webbrowser.open("https://www.fifa.com/fifaplus/en/watch/1wjjV5kxwpSHRjeEkxidIC")
 
     def movePage(self):
         target = self.sender()
@@ -39,9 +47,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-
-    # 레이아웃 인스턴스 생성
+    
     mainwindow = MainWindow()
-
     mainwindow.show()
     sys.exit(app.exec())
