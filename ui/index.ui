@@ -318,21 +318,21 @@ border-radius : 20px;</string>
         <number>16</number>
        </property>
        <item>
-        <widget class="QLabel" name="label_5">
+        <widget class="QLabel" name="match_5">
          <property name="text">
           <string>3위 결정전 플레이오프                            18 12월 2022</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_6">
+        <widget class="QLabel" name="match_6">
          <property name="text">
           <string>칼리파 인터내셔널 스타디움</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_7">
+        <widget class="QLabel" name="match_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
@@ -345,7 +345,7 @@ border-radius : 20px;</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_8">
+        <widget class="QLabel" name="match_8">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
@@ -399,21 +399,21 @@ border-radius : 20px;</string>
         <number>16</number>
        </property>
        <item>
-        <widget class="QLabel" name="label_9">
+        <widget class="QLabel" name="match_1">
          <property name="text">
           <string>결승전                                                   19 12월 2022</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_10">
+        <widget class="QLabel" name="match_2">
          <property name="text">
           <string>루사일 스타디움</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_11">
+        <widget class="QLabel" name="match_3">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
@@ -426,7 +426,7 @@ border-radius : 20px;</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_12">
+        <widget class="QLabel" name="match_4">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
@@ -454,7 +454,7 @@ border-radius : 20px;</string>
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/images/images/korHL.webp);
+      <string notr="true">border-image: url(:/images/images/highlight/ARG_FRA_FINAL_FWC22_THUMB_V4.webp);
 border-radius : 20px;
 </string>
      </property>

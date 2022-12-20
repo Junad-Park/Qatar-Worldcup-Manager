@@ -220,7 +220,7 @@ opacity : 0%;</string>
           <number>0</number>
          </property>
          <property name="text">
-          <string>Croatia v Morocco | Play-off for third place | </string>
+          <string>Argentina v France | Final |</string>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -339,106 +339,13 @@ opacity : 0%;</string>
       </layout>
      </widget>
     </widget>
-    <widget class="QFrame" name="frame_4">
-     <property name="geometry">
-      <rect>
-       <x>1050</x>
-       <y>300</y>
-       <width>471</width>
-       <height>81</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border-radius : 10px;</string>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
-     </property>
-     <widget class="QWidget" name="verticalLayoutWidget_6">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>461</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_6">
-       <property name="leftMargin">
-        <number>16</number>
-       </property>
-       <property name="topMargin">
-        <number>16</number>
-       </property>
-       <property name="rightMargin">
-        <number>16</number>
-       </property>
-       <property name="bottomMargin">
-        <number>16</number>
-       </property>
-       <item>
-        <widget class="QLabel" name="label_22">
-         <property name="mouseTracking">
-          <bool>false</bool>
-         </property>
-         <property name="tabletTracking">
-          <bool>false</bool>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="autoFillBackground">
-          <bool>false</bool>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">opacity : 0%;</string>
-         </property>
-         <property name="inputMethodHints">
-          <set>Qt::ImhNone</set>
-         </property>
-         <property name="lineWidth">
-          <number>1</number>
-         </property>
-         <property name="midLineWidth">
-          <number>0</number>
-         </property>
-         <property name="text">
-          <string>Croatia v Morocco | Play-off for third place | </string>
-         </property>
-         <property name="scaledContents">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_23">
-         <property name="autoFillBackground">
-          <bool>false</bool>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">opacity : 0%;</string>
-         </property>
-         <property name="inputMethodHints">
-          <set>Qt::ImhNone</set>
-         </property>
-         <property name="text">
-          <string>FIFA World Cup Qatar 2022™ | Highlights</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </widget>
     <widget class="QWidget" name="verticalLayoutWidget_7">
      <property name="geometry">
       <rect>
        <x>20</x>
        <y>540</y>
        <width>231</width>
-       <height>61</height>
+       <height>64</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -570,7 +477,7 @@ opacity : 0%;</string>
          <number>0</number>
         </property>
         <property name="text">
-         <string>AC Milan | All Goals | FIFA World</string>
+         <string>FC Barcelona | All Goals | FIFA World</string>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -654,7 +561,7 @@ opacity : 0%;</string>
          <number>0</number>
         </property>
         <property name="text">
-         <string>AC Milan | All Goals | FIFA World</string>
+         <string>Chelsea | All Goals | FIFA World</string>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -738,7 +645,7 @@ opacity : 0%;</string>
          <number>0</number>
         </property>
         <property name="text">
-         <string>AC Milan | All Goals | FIFA World</string>
+         <string>Atletico Madrid | All Goals | FIFA World</string>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -822,7 +729,7 @@ opacity : 0%;</string>
          <number>0</number>
         </property>
         <property name="text">
-         <string>AC Milan | All Goals | FIFA World</string>
+         <string>Manchester City | All Goals | FIFA World</string>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -868,7 +775,7 @@ opacity : 0%;</string>
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/images/images/korHL.webp);
+      <string notr="true">border-image: url(:/images/images/highlight/ARG_FRA_FINAL_FWC22_THUMB_V4.webp);
 border-radius : 20px;
 </string>
      </property>
@@ -892,7 +799,7 @@ border-radius : 20px;
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/images/images/korHL.webp);
+      <string notr="true">border-image: url(:/images/images/highlight/CRO_MAR_3rd_FWC22_THUMB_V1.webp);
 border-radius : 20px;
 </string>
      </property>
@@ -916,7 +823,7 @@ border-radius : 20px;
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/images/images/korHL.webp);
+      <string notr="true">border-image: url(:/images/images/highlight/ENG_FRA_QF_FWC22_THUMB_V3.webp);
 border-radius : 20px;
 </string>
      </property>
@@ -940,7 +847,7 @@ border-radius : 20px;
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/images/images/korHL.webp);
+      <string notr="true">border-image: url(:/images/images/goal_highlight/ALL_GOALS_MILAN.webp);
 border-radius : 20px;
 </string>
      </property>
@@ -964,7 +871,7 @@ border-radius : 20px;
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/images/images/korHL.webp);
+      <string notr="true">border-image: url(:/images/images/goal_highlight/ALL_GOALS_BARCELONA.webp);
 border-radius : 20px;
 </string>
      </property>
@@ -988,7 +895,7 @@ border-radius : 20px;
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/images/images/korHL.webp);
+      <string notr="true">border-image: url(:/images/images/goal_highlight/ALL_GOALS_CHELSEA.webp);
 border-radius : 20px;
 </string>
      </property>
@@ -1012,7 +919,7 @@ border-radius : 20px;
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/images/images/korHL.webp);
+      <string notr="true">border-image: url(:/images/images/goal_highlight/ALL_GOALS_ATLETICO.webp);
 border-radius : 20px;
 </string>
      </property>
@@ -1036,13 +943,87 @@ border-radius : 20px;
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">border-image: url(:/images/images/korHL.webp);
+      <string notr="true">border-image: url(:/images/images/goal_highlight/ALL_GOALS_MAN_CITY.webp);
 border-radius : 20px;
 </string>
      </property>
      <property name="text">
       <string/>
      </property>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>1050</x>
+       <y>300</y>
+       <width>461</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <property name="leftMargin">
+       <number>16</number>
+      </property>
+      <property name="topMargin">
+       <number>16</number>
+      </property>
+      <property name="rightMargin">
+       <number>16</number>
+      </property>
+      <property name="bottomMargin">
+       <number>16</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_20">
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">opacity : 0%;</string>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhNone</set>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string>England v France | Quarter-finals | </string>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_21">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">opacity : 0%;</string>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhNone</set>
+        </property>
+        <property name="text">
+         <string>FIFA World Cup Qatar 2022™ | Highlights</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </widget>
    <widget class="QWidget" name="horizontalLayoutWidget_2">

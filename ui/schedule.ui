@@ -194,26 +194,29 @@ border-radius : 20px;</string>
         <number>16</number>
        </property>
        <item>
-        <widget class="QLabel" name="label_9">
+        <widget class="QLabel" name="match_5">
          <property name="text">
           <string>결승전                                                   19 12월 2022</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_10">
+        <widget class="QLabel" name="match_6">
          <property name="text">
           <string>루사일 스타디움</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_11">
+        <widget class="QLabel" name="match_7">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>아르헨티나                                                      0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -221,12 +224,15 @@ border-radius : 20px;</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_12">
+        <widget class="QLabel" name="match_8">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>프랑스                                                            0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
         </widget>
        </item>
@@ -275,26 +281,29 @@ border-radius : 20px;</string>
         <number>16</number>
        </property>
        <item>
-        <widget class="QLabel" name="label_13">
+        <widget class="QLabel" name="match_1">
          <property name="text">
           <string>결승전                                                   19 12월 2022</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_14">
+        <widget class="QLabel" name="match_2">
          <property name="text">
           <string>루사일 스타디움</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_15">
+        <widget class="QLabel" name="match_3">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>아르헨티나                                                      0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -302,12 +311,15 @@ border-radius : 20px;</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_16">
+        <widget class="QLabel" name="match_4">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>프랑스                                                            0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
         </widget>
        </item>
@@ -356,26 +368,29 @@ border-radius : 20px;</string>
         <number>16</number>
        </property>
        <item>
-        <widget class="QLabel" name="label_17">
+        <widget class="QLabel" name="match_9">
          <property name="text">
           <string>결승전                                                   19 12월 2022</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_18">
+        <widget class="QLabel" name="match_10">
          <property name="text">
           <string>루사일 스타디움</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_19">
+        <widget class="QLabel" name="match_11">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>아르헨티나                                                      0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -383,12 +398,15 @@ border-radius : 20px;</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_20">
+        <widget class="QLabel" name="match_12">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>프랑스                                                            0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
         </widget>
        </item>
@@ -437,26 +455,29 @@ border-radius : 20px;</string>
         <number>16</number>
        </property>
        <item>
-        <widget class="QLabel" name="label_33">
+        <widget class="QLabel" name="match_13">
          <property name="text">
           <string>결승전                                                   19 12월 2022</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_34">
+        <widget class="QLabel" name="match_14">
          <property name="text">
           <string>루사일 스타디움</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_35">
+        <widget class="QLabel" name="match_15">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>아르헨티나                                                      0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -464,12 +485,15 @@ border-radius : 20px;</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_36">
+        <widget class="QLabel" name="match_16">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>프랑스                                                            0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
         </widget>
        </item>
@@ -518,26 +542,29 @@ border-radius : 20px;</string>
         <number>16</number>
        </property>
        <item>
-        <widget class="QLabel" name="label_37">
+        <widget class="QLabel" name="match_17">
          <property name="text">
           <string>결승전                                                   19 12월 2022</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_38">
+        <widget class="QLabel" name="match_18">
          <property name="text">
           <string>루사일 스타디움</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_39">
+        <widget class="QLabel" name="match_19">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>아르헨티나                                                      0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -545,12 +572,15 @@ border-radius : 20px;</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_40">
+        <widget class="QLabel" name="match_20">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>프랑스                                                            0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
         </widget>
        </item>
@@ -599,26 +629,29 @@ border-radius : 20px;</string>
         <number>16</number>
        </property>
        <item>
-        <widget class="QLabel" name="label_45">
+        <widget class="QLabel" name="match_21">
          <property name="text">
           <string>결승전                                                   19 12월 2022</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_46">
+        <widget class="QLabel" name="match_22">
          <property name="text">
           <string>루사일 스타디움</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_47">
+        <widget class="QLabel" name="match_23">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>아르헨티나                                                      0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -626,12 +659,15 @@ border-radius : 20px;</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_48">
+        <widget class="QLabel" name="match_24">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>프랑스                                                            0</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
          </property>
         </widget>
        </item>

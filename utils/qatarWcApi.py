@@ -1,15 +1,18 @@
-import requests
+import requests, os
+from dotenv import load_dotenv
 
-# Login
+load_dotenv()
+
 class QatarWcApi:
     def __init__(self):
-        self.email = "qkrwnsgk1624@icloud.com"
-        self.password = "1dpsrkdn"
+        self.email = os.environ.get('email')
+        self.password = os.environ.get('password')
         self.token = None
         self.latest_match = []
         
         self.login()
         self.getMatch()
+        
     
     def register(self, name:str, email:str, password:str, password_confirm:str):
         headers = {
